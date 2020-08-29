@@ -1,4 +1,4 @@
-# tasks-api
+#tasks-api
 
 Start the server
 ~~~
@@ -16,4 +16,19 @@ docker logs postgres
 docker container stop postgres
 
 docker container rm postgres
+~~~
+
+Docker
+~~~
+// build
+docker build -t stevenriggs/tasks-api .
+
+// run
+docker run --name tasks-api -p 8081:8080 -d stevenriggs/tasks-api
+
+// stop
+docker stop tasks-api
+
+// delete
+docker rm tasks-api
 ~~~

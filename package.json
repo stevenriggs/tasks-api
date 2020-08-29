@@ -1,13 +1,17 @@
 {
   "name": "tasks-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example server side Pagination in Node.js with Sequelize and PostgreSQL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Steven Riggs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevenriggs/task-api.git"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
