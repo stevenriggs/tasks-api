@@ -1,7 +1,7 @@
 {
   "name": "tasks-api",
   "version": "1.0.0",
-  "description": "Example server side Pagination in Node.js with Sequelize and PostgreSQL",
+  "description": "Example Node.js REST API with server side Pagination, Sequelize and PostgreSQL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
